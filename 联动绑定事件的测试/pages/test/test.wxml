@@ -1,0 +1,2 @@
+<input type="text" bindinput="bindInput"/>
+<view>{{num}}</view>
