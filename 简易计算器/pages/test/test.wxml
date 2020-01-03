@@ -1,4 +1,11 @@
-<input type="text" bindinput="handleInput" />
-<button bindtap="handleTap" data-operation="{{1}}">+</button>
-<button bindtap="handleTap" data-operation="{{-1}}">-</button>
-<view>{{num}}</view>
+<swiper autoplay indicator-dots  circular interval="1000">
+  <swiper-item>
+    <image src="//i0.hdslb.com/bfs/archive/cd8c899fa02738edd84221e8d7e82dc1caf7ba81.jpg@1100w_484h_1c_100q.jpg" mode="widthFix" />
+  </swiper-item>
+   <swiper-item>
+    <image src="//i0.hdslb.com/bfs/archive/ec808d91198e78df4238ab0772364781e9a18682.jpg@1100w_484h_1c_100q.jpg" mode="widthFix" />
+  </swiper-item>
+   <swiper-item>
+    <image src="https://i0.hdslb.com/bfs/sycp/creative_img/202001/28fa6830986f48881b091f958f194c0e.jpg@1100w_484h_1c_100q.jpg" mode="widthFix" />
+  </swiper-item>
+</swiper>
